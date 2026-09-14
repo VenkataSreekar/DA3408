@@ -5,3 +5,7 @@ mlflow.db
 *.zip
 *.docx
 *.pptx
+__pycache__
+data/clickstream/*
+data/course_catalog/*
+output/*
