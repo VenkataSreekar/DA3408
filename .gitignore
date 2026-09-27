@@ -9,3 +9,4 @@ __pycache__
 data/clickstream/*
 data/course_catalog/*
 output/*
+Module*/
