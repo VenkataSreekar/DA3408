@@ -7,4 +7,4 @@ groups:
  - name: cpu-node
    rules:
    - record: cpu_util
-     expr: sum by(mode) (rate(node_cpu_seconds_total{mode=~"system|user"}[1m]))
+     expr: sum by (mode) (rate(node_cpu_seconds_total{mode=~"system|user"}[1m]))
